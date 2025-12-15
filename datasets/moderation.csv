@@ -1,0 +1,16 @@
+text,toxicity,sentiment
+"I feel blessed and grateful today.",Safe,Positive
+"You are stupid and worthless.",Offensive/Hate Speech,Negative
+"This is a scam, do not click.",Spam,Negative
+"May Krishna guide me through this tough time.",Safe,Neutral
+"Get rich quick with this scheme!",Spam,Negative
+"I love how my family supports me.",Safe,Positive
+"You people are the worst.",Offensive/Hate Speech,Negative
+"Please help me with my job search.",Safe,Neutral
+"Buy now, limited offer!",Spam,Neutral
+"I am angry and frustrated.",Safe,Negative
+"You idiot!",Offensive/Hate Speech,Negative
+"Feeling calm after meditation.",Safe,Positive
+"Claim your prize by sending money.",Spam,Negative
+"Thank you for the blessings.",Safe,Positive
+"Hate everyone from that group.",Offensive/Hate Speech,Negative

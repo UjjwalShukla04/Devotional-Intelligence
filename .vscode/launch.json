@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "Run Streamlit App",
+      "type": "python",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "app/streamlit_app.py"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "WHISPER_MODEL": "tiny",
+        "DISABLE_ASR": "0",
+        "DISABLE_MT": "1"
+      },
+      "justMyCode": false
+    },
+    {
+      "name": "Test Sentence (backend only)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/test_sentence.py",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "DISABLE_MT": "1"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": false
+    }
+  ]
+}

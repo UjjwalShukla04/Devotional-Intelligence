@@ -1,0 +1,1 @@
+{"sentiment": {"positive": 0, "neutral": 1, "negative": 2}, "toxicity": {"safe": 0, "offensive/hate speech": 1, "spam": 2}, "topic": {"career": 0, "love life": 1, "family issues": 2, "health issues": 3, "mood issues": 4}}
